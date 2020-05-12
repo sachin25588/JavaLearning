@@ -6,7 +6,7 @@ public class Auxillary
     double groundTolerance;
     long cost;
 
-    public Auxillary(int width, int length)              //parameterized constructor-1..
+    public Auxillary(int width, int length)              //parameterized constructor-1 ...
     {
         this.width=width;
         this.length=length;
