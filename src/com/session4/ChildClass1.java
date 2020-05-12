@@ -20,7 +20,7 @@ public class ChildClass1 extends SuperClass
     {
         SuperClass su=new ChildClass1();                  //31. Upcasting Child class-->Superclass
         ChildClass1 ch1=new ChildClass1();
-        ch1.Bike("Bike",2, "Ash");      //Single level Inheritance
+        ch1.Bike("Bike",2, "Ash");      //Single level Inheritance (super class-->Child Class)
         ch1.dimensions(70,28);                //32. Method Overriding--> (over riding method of SuperClass)
                                                           //also called, Late Binding/Run-time Polymorphism
     }
