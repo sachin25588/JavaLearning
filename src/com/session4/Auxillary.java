@@ -4,9 +4,9 @@ public class Auxillary
 {
     int length,width;
     double groundTolerance;
-    long cost;
 
-    public Auxillary(int width, int length)              //parameterized constructor-1..
+  public Auxillary(int width, int length)              //parameterized constructor-1.......
+
     {
         this.width=width;
         this.length=length;
@@ -39,7 +39,7 @@ public class Auxillary
     public static void main(String[] args)
     {
         Auxillary aux3=new Auxillary();
-        aux3.invoice();                                      //method-1 is here!!!
+        aux3.invoice();                                      //method-1 is here
         aux3.invoice("Toyota",85000,870000); //Method overloading-->method-2 have same name as method-1
                                                             // also called Early binding/Compile time Polymorphism
     }
